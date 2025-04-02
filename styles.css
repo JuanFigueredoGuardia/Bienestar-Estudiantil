@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fondo gris oscuro */
+    color: #e0e0e0; /* Texto gris claro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del menú de navegación */
+.navbar {
+    background-color: #87CEEB; /* Color celeste para el fondo del menú */
+    border-bottom: 2px solid #5DADE2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar-brand {
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgb(12, 12, 12);
+    transition: color 0.3s ease;
+    font-size: 1.2em;
+    padding: 15px 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #2ff3f3;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #1E90FF;
+}
+
+/* Estilos del encabezado */
+header {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    background-color: rgb(22, 168, 194);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+header img {
+    max-width: 200px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos de la sección de información para docentes */
+section.contenido-docentes {
+    background-color: #272727; /* Fondo gris oscuro para la sección de información */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+section.contenido-docentes h2 {
+    font-size: 1.9em;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+}
+
+/* Estilos específicos para el ícono de correo en la página de docentes */
+.contenido-docentes .icono-correo {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Espacio arriba del ícono (opcional) */
+}
+
+/* Estilos de los iconos del pie de página */
+footer {
+    background-color: #121212; /* Fondo gris oscuro */
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    margin: 0 20px; /* Aumentamos el margen horizontal */
+    background-color: transparent;
+    display: inline-block;
+}
+
+footer a i {
+    font-size: 10rem; /* Aumentamos el tamaño de los iconos */
+}
+
+footer a i:hover {
+    color: #f0f0f0;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    header {
+        padding: 50px 0;
+    }
+
+    .categorias .col-md-4 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
