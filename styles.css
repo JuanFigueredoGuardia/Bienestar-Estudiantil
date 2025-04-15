@@ -94,8 +94,8 @@ section.contenido-docentes h2 {
 
 /* Estilos de los iconos del pie de página */
 footer {
-    background-color: #121212; /* Fondo gris oscuro */
-    color: rgb(10, 10, 10);
+    background-color: black; /* Fondo gris oscuro */
+    color: black;
     text-align: center;
     padding: 20px 0;
 }
@@ -107,11 +107,11 @@ footer a {
 }
 
 footer a i {
-    font-size: 10rem; /* Aumentamos el tamaño de los iconos */
+    font-size: 20rem; /* Aumentamos el tamaño de los iconos */
 }
 
 footer a i:hover {
-    color: #f0f0f0;
+    color: #17c8e7;
 }
 
 /* Media queries para responsividad */
