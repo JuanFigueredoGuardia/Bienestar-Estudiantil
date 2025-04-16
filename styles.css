@@ -13,6 +13,7 @@ body {
     padding: 20px;
 }
 
+
 /* Estilos del menú de navegación */
 .navbar {
     background-color: #87CEEB; /* Color celeste para el fondo del menú */
@@ -86,15 +87,9 @@ section.contenido-docentes h2 {
     color: #e0e0e0;
 }
 
-/* Estilos específicos para el ícono de correo en la página de docentes */
-.contenido-docentes .icono-correo {
-    text-align: center; /* Centra el contenido horizontalmente */
-    margin-top: 20px; /* Espacio arriba del ícono (opcional) */
-}
 
 /* Estilos de los iconos del pie de página */
 footer {
-    background-color: black; /* Fondo gris oscuro */
     color: black;
     text-align: center;
     padding: 20px 0;
@@ -107,11 +102,12 @@ footer a {
 }
 
 footer a i {
-    font-size: 20rem; /* Aumentamos el tamaño de los iconos */
+    font-size: 2rem; /* Aumentamos el tamaño de los iconos */
+    color: #121212;
 }
 
 footer a i:hover {
-    color: #17c8e7;
+    color: #1E90FF;
 }
 
 /* Media queries para responsividad */
