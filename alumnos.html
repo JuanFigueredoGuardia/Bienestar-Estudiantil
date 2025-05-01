@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alumnos</title>
+    <title>Docentes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -30,7 +29,6 @@
         }
         </script>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">
@@ -47,11 +45,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Inicio</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="alumnos.html">Alumnos <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="docentes.html">Docentes</a>
+                    <a class="nav-link" href="alumnos.html">Alumnos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="docentes.html">Docentes <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="DondeEncontrarnos.html">Donde encontrarnos</a>
@@ -62,24 +60,30 @@
 
     <header>
         <div class="header-content">
-            <h1>Alumnos</h1>
+            <h1>Docentes</h1>
         </div>
     </header>
 
-    <main class="container">
-        <section class="contenido-alumnos">
-            <h2>Información para Alumnos:</h2>
-            <ul>
-                <li><a href="#">Turno mañana aula 20</a></li>
-                <li><a href="#">Horarios de la sala 08:00 a.m hasta las 12:00 p.m</a></li>
-                <li><a href="#">Herremientas para usar: Codeblocks, Visual Studio Code, Python, Paquete Office</a></li>
-                <li><a href="#">Horarios de atencion de 8 a 12hs</a></li>
-                <li><a href="#">whatsapp: +54 9 345 494-5349</a></li>
-            </ul>
-            <hr>
-            <h2>Formulario de Inscripción</h2>
-            <h4>Por favor, completa el siguiente formulario para registrarte para el uso de computadoras:</h4>
-            <a href="https://forms.gle/kCr8oKL27NF8ZMKx8" class="btn btn-primary">Ir al formulario</a>
+    <main> <section class="contenido-docentes">
+            <h2>Información para Docentes</h2>
+            <h5>Aquí encontrarás información y recursos útiles para los docentes.</h5>
+            <h3>
+                Para hacer una reserva del espacio con anticipación, los interesados pueden solicitar un turno de forma
+                personal en el Aula 20, o mediante correo electrónico dirigido a
+                espacioprogresar@frcon.un.edu.ar
+
+                En el cuerpo del mensaje se deberá indicar:
+                <ul>
+                    <li><a href="">Nombre completo</a></li>
+                    <li><a href="">DNI</a></li>
+                    <li><a href="">Dia y horario en que solicita turno</a></li>
+                    <li><a href="">celular y cantidad de máquinas a reservar.</a></li>
+                </ul>
+                <p>Estimados docentes, les solicitamos completar el siguiente formulario para identificar las
+                    herramientas de software que consideran necesarias en los equipos de computación. Su colaboración es
+                    fundamental para mejorar los recursos disponibles para el desarrollo de sus clases.</p>
+                <a href="https://forms.gle/2dK8RvZ7tkv6mmAx6" class="btn btn-primary">Ir al formulario</a>
+            </h3>
         </section>
     </main>
 
@@ -100,5 +104,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
